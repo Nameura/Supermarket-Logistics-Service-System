@@ -1,0 +1,126 @@
+# ====================
+# Java / Maven (Backend)
+# ====================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.sw?
+*.bak
+~$*
+*.iml
+*.ipr
+*.iws
+!application.yml
+!application-*.yml
+
+# Maven wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# ====================
+# IntelliJ IDEA
+# ====================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ====================
+# VS Code
+# ====================
+.vscode/
+*.code-workspace
+
+# ====================
+# Node.js / Vue (Frontend)
+# ====================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+*.js.map
+
+# ====================
+# Vite / Vue cache
+# ====================
+frontend/.vite/
+frontend/.env.local
+frontend/.env.*.local
+
+# ====================
+# Upload directories (runtime files)
+# ====================
+upload/
+backend/upload/
+
+# ====================
+# OS files
+# ====================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ====================
+# IDE / Editor
+# ====================
+.idea/
+*.swp
+*.swo
+*~
+.~lock*
+
+# ====================
+# Logs
+# ====================
+logs/
+*.log
+backend/logs/
+
+# ====================
+# Environment / Config
+# ====================
+.env
+.env.local
+.env.*.local
+*.local
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# ====================
+# Dependency directories
+# ====================
+vendor/
+backend/vendor/
+
+# ====================
+# TRAE IDE
+# ====================
+.trae/
+
+# ====================
+# Example / demo code
+# ====================
+example/
+
+# ====================
+# Package lock files (keep only one in frontend)
+# ====================
+backend/package-lock.json
+backend/yarn.lock
+backend/pnpm-lock.yaml
+
+# ====================
+# Test reports
+# ====================
+test-report/
+*.test-results/
